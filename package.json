@@ -10,8 +10,11 @@
     "pkg-up": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "author": "Adonis K. <aklp08@gmail.com> (http://adonisk.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.4.2"
+  }
 }
