@@ -1,6 +1,6 @@
 # load-tasks-gulp
 
-> load gulp tasks automatically, no need to require every single one of them
+> load gulp tasks automatically, no need to require every single one of them yourself
 
 With `load-tasks-gulp` you can load all the gulp tasks that are defined in your package.json file.
 
