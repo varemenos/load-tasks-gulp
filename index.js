@@ -3,8 +3,8 @@ var pkgUp = require('pkg-up');
 var multimatch = require('multimatch');
 var camelcase = require('camelcase');
 
-module.exports = function () {
-	var config = require(path.resolve(pkgUp.sync()));
+module.exports = function (data) {
+	var config = data || require(path.resolve(pkgUp.sync()));
 
 	var scope = [
 		'dependencies',
@@ -37,6 +37,9 @@ module.exports = function () {
 
 	multimatch(tasks, pattern).map(function (task) {
 		var taskName = camelcase(task.replace('gulp-', ''));
-		GLOBAL[realName] = require(task);
+
+		if (taskName) {
+			GLOBAL[taskName] = require(task);
+		}
 	});
 };
