@@ -5,6 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/varemenos/load-tasks-gulp",
   "dependencies": {
+    "camelcase": "^1.2.1",
     "multimatch": "^2.0.0",
     "pkg-up": "^1.0.0"
   },
