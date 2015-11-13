@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"gulp-add-src": "*"
+	},
+	"devDependencies": {
+		"gulp-sass": "^6.2.1"
+	}
+}
