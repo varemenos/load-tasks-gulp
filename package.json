@@ -15,6 +15,7 @@
   "author": "Adonis K. <aklp08@gmail.com> (http://adonisk.com/)",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.4.2"
+    "ava": "^0.4.2",
+    "eslint": "^1.9.0"
   }
 }
