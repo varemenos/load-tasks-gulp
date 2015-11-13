@@ -4,7 +4,7 @@
 
 ## Install
 
-```shell
+```
 $ npm install --save-dev load-tasks-gulp
 ```
 
