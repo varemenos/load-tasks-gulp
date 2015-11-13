@@ -1,6 +1,6 @@
 # load-tasks-gulp
 
-> hassle-free task loading, you no need to require every single one of them yourself!
+> Hassle-free task loading. You no need to require every single one of them yourself!
 
 [![Build Status](https://travis-ci.org/varemenos/load-tasks-gulp.svg)](https://travis-ci.org/varemenos/load-tasks-gulp)
 
