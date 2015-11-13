@@ -38,6 +38,10 @@ gulp.src('./sass/**/*.scss')
 
 As you see, there was no need to require() the `gulp-sass` package. That's because it was automatically detected and loaded by load-tasks-gulp since was declared in the package.json file.
 
+## Credits
+
+heavily inspired by https://github.com/sindresorhus/load-grunt-tasks
+
 ## License
 
 MIT
