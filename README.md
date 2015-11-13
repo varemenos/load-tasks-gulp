@@ -1,21 +1,20 @@
 # load-tasks-gulp
 
-## About
+> load gulp tasks automatically, no need to require every single one of them
 
-load gulp tasks automatically, no need to require every single one of them
-
-### Installation
+## Install
 
 ```shell
-npm i -D load-tasks-gulp
+$ npm install --save-dev load-tasks-gulp
 ```
 
-### Usage
+## Usage
 
 ```js
+// Gulpfile.js
 require('load-tasks-gulp')();
 ```
 
 ## License
 
-The MIT license
+MIT
