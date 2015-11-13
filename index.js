@@ -1,5 +1,3 @@
-'use strict';
-
 var path = require('path');
 var pkgUp = require('pkg-up');
 var multimatch = require('multimatch');
