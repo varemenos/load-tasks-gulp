@@ -1,5 +1,5 @@
 {
-  "name": "load-gulp-tasks",
+  "name": "load-tasks-gulp",
   "version": "0.0.1",
   "description": "load gulp tasks automatically, no need to require every single one of them",
   "main": "index.js",
