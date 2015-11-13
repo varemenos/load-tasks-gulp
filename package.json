@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "load gulp tasks automatically, no need to require every single one of them",
   "main": "index.js",
+  "repository": "https://github.com/varemenos/load-tasks-gulp",
   "dependencies": {
     "multimatch": "^2.0.0",
     "pkg-up": "^1.0.0"
