@@ -34,6 +34,8 @@ gulp.src('./sass/**/*.scss')
 ]);
 ```
 
+As you notice there was no need to require() `gulp-sass` because it was automatically detected and loaded since it was declared in the package.json file
+
 ## License
 
 MIT
