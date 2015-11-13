@@ -1,0 +1,15 @@
+{
+  "name": "load-gulp-tasks",
+  "version": "0.0.1",
+  "description": "load gulp tasks automatically, no need to require every single one of them",
+  "main": "index.js",
+  "dependencies": {
+    "multimatch": "^2.0.0",
+    "pkg-up": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adonis K. <aklp08@gmail.com> (http://adonisk.com/)",
+  "license": "MIT"
+}
