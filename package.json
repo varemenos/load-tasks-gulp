@@ -1,6 +1,6 @@
 {
   "name": "load-tasks-gulp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "load gulp tasks automatically, no need to require every single one of them",
   "main": "index.js",
   "repository": "https://github.com/varemenos/load-tasks-gulp",
