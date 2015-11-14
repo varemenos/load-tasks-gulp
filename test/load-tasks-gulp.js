@@ -1,7 +1,7 @@
 var test = require('ava');
 var isFunction = require('lodash.isfunction');
 
-var loadTasksGulp = require('../index');
+var loadTasksGulp = require('../libs/load-tasks-gulp');
 var config = require('./dummy.json');
 
 loadTasksGulp(config);
